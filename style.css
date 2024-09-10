@@ -1,0 +1,76 @@
+*{
+
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+.container{
+  max-height: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+
+}
+.design1{
+ display: block;
+ margin: 20px;
+ padding: 20px;
+}
+.design1 h2{
+  font-family:"Matemasie";
+  font-size: 30px;
+  margin: 10px 0px;
+  padding: 20px 0px;
+}
+.design1 .enter{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 35px;
+  padding: 20px 10px;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 350px;
+  border: 1px solid red;
+  height: 180px;
+}
+label{
+  margin-bottom: 10px;
+}
+.design1 .en{
+      border-radius: 10px;
+      padding: 10px;
+}
+
+.container2{
+  display: flex;
+  flex-direction: row;
+  margin: 30px 30px;
+  border: 1px solid red;
+  border-radius: 8px;
+ 
+}
+.container2 .design2 .design3{
+  margin-right: 25px;
+  padding: 10px;
+  border: 1px solid red;
+}
+.container2 .design3 .design2{
+  margin-left: 25px;
+}
+.button1{
+  padding: 10px;
+  margin: 10px;
+}
+#encryptedMessage{
+  padding: 10px 3px;
+}
+button{
+  padding: 10px 5px;
+  width: 120px;
+  border-radius: 8px;
+  margin: 10px 0px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    class Student{
+      // Name.name;
+      // Age
+      // Username
+
+      constructor(name, age, username){
+        this.name = name;
+        this.age = age;
+        this.username = username;
+      }
+
+
+      study(){
+
+        for(let i = 0; i < 5; i++){
+        console.log(`${student.name} is Studying...`);
+      }
+      }
+      Play(){
+        console.log(`${student.name} is Playing Codm...`);
+      }
+      doHomeWork(){
+        console.log(`${student.name} is Doing his home Work in DSA...`);
+      }
+
+    }
+
+   const student = new Student('Andy', 19, 'lubo');
+   const student1 = new Student('Mico', 19, 'bogart');
+
+   console.log(`I am ${student.name}, ${student.age}, My username is ${student.username}`);
+   console.log(`I am ${student1.name}, ${student1.age}, My username is ${student1.username}`);
+   student.study();
+   student.Play();
+   student.doHomeWork(); 
+
+  </script>
+</body>
+</html>
